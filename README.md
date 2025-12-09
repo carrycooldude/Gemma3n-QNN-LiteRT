@@ -65,5 +65,8 @@ This project contains code for **Qualcomm QNN (NPU)** acceleration via LiteRT de
 *   The app defaults to **GPU** for maximum stability.
 *   To experiment with NPU, modify `LiteRTLMManager.kt` to prioritize `Backend.NPU`.
 
+https://github.com/user-attachments/assets/4c3c494e-a119-45d5-9726-4e43b2351ed9
+
+
 ## 📜 License
 Apache 2.0
