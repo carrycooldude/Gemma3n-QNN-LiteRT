@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Theme Colors -->
+    <color name="purple_200">#FF90CAF9</color>
+    <color name="purple_500">#FF1976D2</color>
+    <color name="purple_700">#FF0D47A1</color>
+    <color name="teal_200">#FF80CBC4</color>
+    <color name="teal_700">#FF00695C</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Chat UI Premium Colors -->
+    <color name="primary">#1976D2</color>      <!-- Deep Royal Blue -->
+    <color name="primary_variant">#0D47A1</color>
+    <color name="secondary">#26A69A</color>    <!-- Soft Teal -->
+    <color name="background">#F5F7FA</color>   <!-- Off-white background -->
+    <color name="surface">#FFFFFF</color>
+    
+    <color name="user_message_background">#1976D2</color>
+    <color name="assistant_message_background">#E9ECEF</color>
+    
+    <color name="text_primary">#1C1C1E</color> <!-- Almost Black -->
+    <color name="text_secondary">#757575</color>
+    <color name="divider">#E0E0E0</color>
+    
+    <color name="input_background">#F0F2F5</color>
+</resources>

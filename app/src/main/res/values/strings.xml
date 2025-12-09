@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gemma3n Chat</string>
+    <string name="user_sender">User</string>
+    <string name="assistant_sender">Gemma</string>
+    <string name="error_init">Failed to initialize engine</string>
+    <string name="error_send">Failed to send message</string>
+</resources>
