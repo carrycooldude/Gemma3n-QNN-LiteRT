@@ -1,6 +1,11 @@
 # Gemma3n-QNN-LiteRT Android Chat
 
-A premium on-device LLM chat application for Android, powered by **Google LiteRT (formerly TensorFlow Lite)** and running the **Gemma-2B (3n)** model.
+A premium on-device LLM chat application for Android, powered by **Google LiteRT (formerly TensorFlow Lite)** and running the **Gemma 3n E2B (Instructed)** model.
+
+**Gemma 3n** is Google's latest family of models enabling efficient AI on everyday devices.
+*   **"E2B"**: Effective 2 Billion parameters.
+*   **Optimized**: Built with MatFormer architecture and Per-Layer Embedding (PLE) for high-speed edge inference.
+*   **Performance**: Capable of 30-50+ tokens/sec on modern mobile processors.
 
 <p align="center">
   <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="100" />
@@ -8,9 +13,11 @@ A premium on-device LLM chat application for Android, powered by **Google LiteRT
 
 ## 🚀 Features
 
-*   **On-Device Inference**: Runs entirely offline using the Gemma-2B-it-int4 quantized model.
-*   **LiteRT-LM Engine**: efficient LLM inference using Google's LiteRT GenAI stack.
-*   **Hardware Acceleration**: Optimized for **GPU** (OpenCL) execution. *(Note: QNN/NPU support is experimentally implemented but currently disabled due to model file constraints).*
+*   **Next-Gen Edge AI**: Runs the highly efficient **Gemma 3n E2B** model offline.
+*   **LiteRT-LM Engine**: Latest Google AI Edge runtime for optimized generation.
+*   **Hardware Acceleration**:
+    *   **GPU**: Default OpenCL backend for broad compatibility and speed.
+    *   **NPU (QNN)**: Experimental support included (requires compatible HTP backend binary).
 *   **Modern Premium UI**:
     *   Deep Blue & Soft Gray aesthetic.
     *   Floating "pill" input bar with keyboard auto-adjustment.
